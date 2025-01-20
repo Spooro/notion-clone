@@ -40,3 +40,21 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 service_key.json
+
+# Worker specific ignores
+workers/**/node_modules/
+workers/**/.dev.vars
+workers/**/.wrangler/
+workers/**/.dav.vars
+workers/**/dist
+workers/**/.env
+workers/**/.env.*
+workers/**/.cache
+workers/**/*.tsbuildinfo
+workers/**/coverage
+workers/**/*.lcov
+workers/**/.nyc_output
+workers/**/pids
+workers/**/*.pid
+workers/**/*.seed
+workers/**/*.pid.lock
